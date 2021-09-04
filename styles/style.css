@@ -28,7 +28,19 @@ body {
 }
 
 .home {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .declaration {
@@ -79,7 +91,11 @@ body {
   padding-bottom: 1rem;
 }
 
-button {
+.inactive-level {
+  display: none;
+}
+
+.next-level {
   border-radius: 8px;
   border: none;
   padding: 1rem 2.5rem;
