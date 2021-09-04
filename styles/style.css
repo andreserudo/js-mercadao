@@ -1,4 +1,68 @@
+*, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 2rem;
+}
+
+.title {
+  padding-top: 2rem;
+  font-size: 32px;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paragraph-description {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.paragraph-description p {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.paragraph-description ul {
+  padding-bottom: 1rem;
+}
+
 button {
-  color: aqua;
+  border-radius: 8px;
+  border: none;
+  padding: 1rem 2.5rem;
+  color: white;
+  background-color: #2F97C1;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

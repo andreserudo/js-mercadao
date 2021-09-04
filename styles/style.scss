@@ -1,3 +1,46 @@
+*, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.title {
+    padding-top: 2rem;
+    font-size: 32px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph-description {
+    margin-bottom: 2rem;
+    text-align: center;
+    p {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    ul {
+        padding-bottom: 1rem;
+    }
+}
+
 button {
-    color: aqua;    
+    border-radius: 8px;
+    border: none;
+    padding: 1rem 2.5rem;
+    color: white;
+    background-color: #2F97C1;
+    font-weight: bold;
 }
