@@ -28,19 +28,41 @@ body {
 }
 
 .home {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: none;
+}
+
+.declaration {
+  margin-top: 1rem;
+}
+
+.code-example {
+  background-color: #fff;
+  margin: 1rem 0;
+}
+
+.code-example .code {
+  color: #333;
+  margin-left: .5rem;
+}
+
+.code-line {
+  padding: .5rem 1rem;
+  background-color: #DDD;
+  color: #999;
+}
+
+.code-interaction {
+  background-color: #fff;
+  margin: 1rem 0;
+}
+
+.code-input {
+  height: 33px;
+  border: none;
+}
+
+.code-input:focus {
+  outline: none;
 }
 
 .paragraph-description {
